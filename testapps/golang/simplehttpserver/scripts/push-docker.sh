@@ -1,5 +1,5 @@
 #set -x
-export IMG=hellogolan=g
+export IMG=hellogolang
 export VERSION=0.0.0.1
 
 echo ${IMG}
