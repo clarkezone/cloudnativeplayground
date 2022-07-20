@@ -9,5 +9,8 @@ build:
 
 .PHONY: podmanbuild
 podmanbuild:
-	podman build .
+	podman build . -t hellogolang
 
+.PHONY: dockerbuild
+dockerbuild:
+	docker build . -t hellogolang
