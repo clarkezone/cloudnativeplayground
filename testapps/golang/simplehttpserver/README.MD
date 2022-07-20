@@ -5,7 +5,6 @@ podman login registry.hub.docker.com -u <USERNAME>
 podman login ghcr.io -u <USERNAME> 
 
 TODO:
-1. verify GHCR login and push
-2. Script to create MCR
-3. BICEP to create MCR
-4. Script to push to MCR
+1. Script to create MCR
+2. BICEP to create MCR
+3. Script to push to MCR
